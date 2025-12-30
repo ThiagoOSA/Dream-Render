@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "Program": "./Program/Program.js",
+                "Object": "./Program/Code/Object.js",
+                "Component": "./Program/Code/Component.js",
+                "ComponentHandler": "./Program/Code/ComponentHandler.js",
+                "Camera": "./Program/Code/Camera.js",
+                "Graphics": "./Program/Code/Graphics.js",
+                "BoxCollider": "./Program/Code/BoxCollider.js",
+                "Transform": "./Program/Code/Transform.js",
+                "Texture": "./Program/Code/Texture.js",
+                "TextureHandler": "./Program/Code/TextureHandler.js",
+                "Mesh": "./Program/Code/Mesh.js",
+                "MeshHandler": "./Program/Code/MeshHandler.js",
+                "Cube": "./Program/Code/Cube.js",
+                "DrawFunctions": "./Program/Code/DrawFunctions.js",
+                "EventHandler": "./Program/Code/EventHandler.js",
+                "GroupHandler": "./Program/Code/GroupHandler.js",
+                "InputHandler": "./Program/Code/InputHandler.js",
+                "Scene": "./Program/Code/Scene.js",
+                "SceneHandler": "./Program/Code/SceneHandler.js",
+                "ToScreen": "./Program/Code/ToScreen.js",
+                "vectorMath": "./Program/Math/vectorMath.js",
+                "quaternionMath": "./Program/Math/quaternionMath.js",
+                "matrixMath": "./Program/Math/matrixMath.js",
+                "Baricentric":"./Program/Math/Baricentric.js",
+                "CellphoneController": "./Program/Code/CellphoneController.js"
+            }
+        }
+    </script>
+    <title>DreamRender</title>
+</head>
+<body>
+
+    <canvas id="bgCanvas"></canvas>
+
+    <nav class="top-nav">
+        <div class="nav-left">
+            <button class="menu-btn" id="toggleSidebar">☰ Menu</button>
+            <span class="app-title">DreamRender</span>
+        </div>
+
+        <div class="upload-container">
+            <label for="fileInput" class="upload-btn">
+                <span>Upload File</span>
+            </label>
+            <input type="file" id="fileInput">
+        </div>
+    </nav>
+
+    <aside class="sidebar" id="sidebar">
+        <h3 style="margin-bottom: 15px; color: #e6e6fa;">Scenes</h3>
+        <ul class="scene-list">
+        </ul>
+    </aside>
+
+    <p class="fps">0</p>
+
+    <script>
+        const toggleBtn = document.getElementById('toggleSidebar');
+        const sidebar = document.getElementById('sidebar');
+
+        toggleBtn.addEventListener('click', () => {
+            sidebar.classList.toggle('open');
+        });
+
+        const sceneHeaders = document.querySelectorAll('.scene-header');
+
+        sceneHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                const parentItem = header.parentElement;
+                
+                parentItem.classList.toggle('active');
+                document.querySelectorAll('.scene-item').forEach(item => {
+                    if (item !== parentItem) {
+                        item.classList.remove('active');
+                    }
+                });
+            });
+        });        
+    </script>
+    <script type="module" src="Main.js"></script>
+    <script type="module" src="./Program/Funcs/Translator.js"></script>
+</body>
+</html>
