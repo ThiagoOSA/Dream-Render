@@ -1,21 +1,21 @@
-Para carregar uma cena pressione no botão superior direito e selecione um arquivo .JSON. \n
-Lembre-se que o arquivo .JSON escolhido precisa estar estruturado da mesma forma que o arquivo de cena padrão. \n
-O arquivo de cena padrão pode ser encontrado em /Program/scene_01.json. \n
+Para carregar uma cena pressione no botão superior direito e selecione um arquivo .JSON.  
+Lembre-se que o arquivo .JSON escolhido precisa estar estruturado da mesma forma que o arquivo de cena padrão.  
+O arquivo de cena padrão pode ser encontrado em /Program/scene_01.json.  
 
-To load a scene press the load button on the top right corner and select the .JSON file. \n
-Remember that the .JSON file needs to be structured the same as the default scene file. \n
-The default scene file can be found at /Program/scene_01.json. \n
+To load a scene press the load button on the top right corner and select the .JSON file.  
+Remember that the .JSON file needs to be structured the same as the default scene file.  
+The default scene file can be found at /Program/scene_01.json.  
 
-W - Para mover para frente. \n
-S - Para mover para trás. \n
-A - Para mover para esquerda. \n
-D - Para mover para direita. \n
-Q - Para rotacionar para esquerda no eixo Y. \n
-E - Para rotacionar para direita no eixo Y. \n
-R - Para rotacionar para cima no eixo X. \n
-F - Para rotacionar para baixo no eixo X. \n
-Z - Para rotacionar para esquerda lateralmente no eixo Z. \n
-F - Para rotacionar para direita lateralmente no eixo Z. \n
+W - Para mover para frente.  
+S - Para mover para trás.  
+A - Para mover para esquerda.  
+D - Para mover para direita.  
+Q - Para rotacionar para esquerda no eixo Y.  
+E - Para rotacionar para direita no eixo Y.  
+R - Para rotacionar para cima no eixo X.  
+F - Para rotacionar para baixo no eixo X.  
+Z - Para rotacionar para esquerda lateralmente no eixo Z.  
+F - Para rotacionar para direita lateralmente no eixo Z.  
 
 W - To move forward. \n
 S - To move backwards. \n
