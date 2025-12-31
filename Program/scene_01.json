@@ -17,7 +17,7 @@
                         {
                             "name":"Graphics",
                             "args":[
-                                "Program/Graphics/Models/rectangle.obj",
+                                "cube",
                                 true
                             ]
                         }
@@ -71,7 +71,7 @@
                         {
                             "name":"Graphics",
                             "args":[
-                                "Program/Graphics/Models/WoodHouse/WoodHouse.obj",
+                                "/Program/Graphics/Models/WoodHouse/WoodHouse.obj",
                                 true
                             ]
                         }
@@ -91,7 +91,7 @@
                         {
                             "name":"Graphics",
                             "args":[
-                                "Program/Graphics/Models/WoodHouse/WoodHouse.obj",
+                                "/Program/Graphics/Models/WoodHouse/WoodHouse.obj",
                                 true
                             ]
                         }
@@ -111,7 +111,7 @@
                         {
                             "name":"Graphics",
                             "args":[
-                                "Program/Graphics/Models/WoodHouse/WoodHouse.obj",
+                                "/Program/Graphics/Models/WoodHouse/WoodHouse.obj",
                                 true
                             ]
                         }
@@ -138,10 +138,6 @@
                                 1000,
                                 true
                             ]
-                        },
-                        {
-                            "name":"CellphoneController",
-                            "args":[]
                         }
                     ]
                 }
@@ -165,7 +161,7 @@
                         {
                             "name":"Graphics",
                             "args":[
-                                "Program/Graphics/Models/FinalBaseMesh.obj",
+                                "/Program/Graphics/Models/Man/FinalBaseMesh.obj",
                                 true
                             ]
                         }
@@ -265,7 +261,7 @@
                         {
                             "name":"Graphics",
                             "args":[
-                                "Program/Graphics/Models/WoodHouse/WoodHouse.obj",
+                                "/Program/Graphics/Models/WoodHouse/WoodHouse.obj",
                                 true
                             ]
                         }
@@ -285,7 +281,7 @@
                         {
                             "name":"Graphics",
                             "args":[
-                                "Program/Graphics/Models/WoodHouse/WoodHouse.obj",
+                                "/Program/Graphics/Models/WoodHouse/WoodHouse.obj",
                                 true
                             ]
                         }
@@ -305,7 +301,7 @@
                         {
                             "name":"Graphics",
                             "args":[
-                                "Program/Graphics/Models/WoodHouse/WoodHouse.obj",
+                                "/Program/Graphics/Models/WoodHouse/WoodHouse.obj",
                                 true
                             ]
                         }
@@ -355,7 +351,7 @@
                         {
                             "name":"Graphics",
                             "args":[
-                                "Program/Graphics/Models/FinalBaseMesh.obj",
+                                "/Program/Graphics/Models/Man/FinalBaseMesh.obj",
                                 true
                             ]
                         }

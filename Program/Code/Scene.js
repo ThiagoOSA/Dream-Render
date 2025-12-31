@@ -50,7 +50,7 @@ class Scene{
                 facesRendered.push(...this.objectsArr[i].render());
             }
         }
-        //if(!this.i){console.log(facesRendered); this.i++};
+
         facesRendered.sort((a,b)=> ((b[0][0].z+b[1][0].z+b[2][0].z)/3) - ((a[0][0].z+a[1][0].z+a[2][0].z)/3));
         for(let i = 0; i < facesRendered.length; i++){
             if(this.type){

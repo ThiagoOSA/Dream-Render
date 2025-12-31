@@ -38,7 +38,7 @@ class Cube extends Mesh{
         ];
 
         static textures = [
-            TextureHandler.addTexture("box", "texture1.jpg"),
+            TextureHandler.addTexture("box", "/Program/Graphics/Textures/box.jpg"),
         ]
 
         static faces = [

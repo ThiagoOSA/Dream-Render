@@ -29,7 +29,7 @@ class CellphoneController extends Component{
     }
 
     update(){
-        if(window.innerWidth <= Infinity){
+        if(window.innerWidth <= 800){
             this.left.classList.remove("hidden");
             this.right.classList.remove("hidden");
         }else{
