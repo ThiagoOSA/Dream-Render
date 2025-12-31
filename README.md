@@ -17,13 +17,13 @@ F - Para rotacionar para baixo no eixo X.
 Z - Para rotacionar para esquerda lateralmente no eixo Z.  
 F - Para rotacionar para direita lateralmente no eixo Z.  
 
-W - To move forward. \n
-S - To move backwards. \n
-A - To move to the left. \n
-D - To move to the right. \n
-Q - To rotate left on the Y axis. \n
-E - To rotate right on the Y axis. \n
-R - To rotate up on the X axis. \n
-F - To rotate down on the X axis. \n
-Z - To rotate left sideway on the Z axis. \n
-F - To rotate right sideways on the Z axis. \n
+W - To move forward.  
+S - To move backwards.  
+A - To move to the left.  
+D - To move to the right.  
+Q - To rotate left on the Y axis.  
+E - To rotate right on the Y axis.  
+R - To rotate up on the X axis.  
+F - To rotate down on the X axis.  
+Z - To rotate left sideway on the Z axis.  
+F - To rotate right sideways on the Z axis.  
